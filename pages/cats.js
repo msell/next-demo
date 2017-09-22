@@ -13,10 +13,9 @@ export default class Cats extends React.Component {
     render () {
       return (
           <Layout>
-        <div>
-          {this.props.cats.map((c,i) => (<img key={i} src={c}/>))}
-        </div>
-
+            <div>
+              {this.props.cats.map((c,i) => (<img key={i} src={c}/>))}
+            </div>
         </Layout>
       )
     }

@@ -6,7 +6,7 @@ const Header = () => {
         <span>
             <Link href="/"><a>Home</a></Link> |
             <Link href="/cats"><a> Cats</a></Link>
-            </span>
+        </span>
     );
 };
 
